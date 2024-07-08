@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Estilos del perfil */
+#perfil {
+    background-color: rgb(17, 17, 17);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+}
+
+.nombre2 {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+}
+
+.username {
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+}
+
+.bio {
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos de los tweets */
+.tweet {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tweet .contenido {
+    margin-left: 10px;
+}
+
+.tweet .nombre {
+    font-weight: bold;
+}
+
+.tweet .username {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.tweet .texto {
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nombre {
+        font-size: 1.2rem;
+    }
+}
+
+.container2 {
+    max-width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
